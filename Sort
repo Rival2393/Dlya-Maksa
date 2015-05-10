@@ -1,0 +1,16 @@
+Here was developed 3 simple sort algorithms: "Bubble sort", "Insertion sort", "Selection sort".
+
+After testing I got those results:
+
+________________________________________
+|  Bubble  |  Insertion  |  Selection  |
+| 61.000s  |   42.641s   |   52.854s   | <-- 100 000 random elements
+|  0.625s  |    0.617s   |    0.609s   | <-- 10 000 random elements
+|  0.016s  |    0.062s   |    0.109s   | <-- 1 000 random elements
+|--------------------------------------|
+
+Conclusion:
+	for small arrays it's most effective to use BUBBLE SORT, 
+	for big arrays INSERTION SORT is better.
+	
+	--Pyslar Dmitriy--				10.05.2015
